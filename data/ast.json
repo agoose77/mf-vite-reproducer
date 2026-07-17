@@ -1,0 +1,55 @@
+{
+    "type": "root",
+    "key": "1",
+    "children": [
+        {
+            "type": "block",
+            "key": "2",
+            "children": [
+                {
+                    "type": "paragraph",
+                    "key": "3",
+                    "children": [
+                        {
+                            "type": "text",
+                            "value": "Hello world ",
+                            "key": "4"
+                        },
+                        {
+                            "type": "emphasis",
+                            "key": "5",
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "I\u2019m italic",
+                                    "key": "6"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "value": " ",
+                            "key": "7"
+                        },
+                        {
+                            "type": "strong",
+                            "key": "8",
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "not",
+                                    "key": "9"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "value": " bold.",
+                            "key": "10"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
