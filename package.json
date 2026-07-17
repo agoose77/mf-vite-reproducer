@@ -4,8 +4,8 @@
   "type": "module",
   "scripts": {
     "build": "react-router build",
-    "dev": "react-router dev",
-    "start": "react-router-serve ./build/server/index.js",
+    "dev": "npm run data && react-router dev",
+    "start": "npm run data && react-router-serve ./build/server/index.js",
     "typecheck": "react-router typegen && tsc",
     "data": "serve data -l 9000"
   },
